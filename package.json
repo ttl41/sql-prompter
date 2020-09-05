@@ -1,0 +1,35 @@
+{
+  "name": "sql-prompter",
+  "version": "1.0.0",
+  "description": "SQL Prompter",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ./test.js",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kazzookay/sql-prompter.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "js",
+    "kazzookay",
+    "sql",
+    "prompt",
+    "sql-prompter"
+  ],
+  "author": "Kazzookay",
+  "license": "SEE LICENSE IN './LICENSE'",
+  "bugs": {
+    "url": "https://github.com/Kazzookay/sql-prompter/issues"
+  },
+  "homepage": "https://github.com/Kazzookay/sql-prompter#readme",
+  "dependencies": {
+    "mysql": "2.18.1",
+    "prompt": "1.0.0",
+    "colors": "1.4.0",
+    "fs": "0.0.1-security"
+  }
+}
