@@ -1,5 +1,5 @@
 # sql-prompter
-> ❗ Node.JS SQL Prompter.
+> ❗ Node.JS SQL Prompter. <br>
 > ❗ Require Node.JS.
 
 ## Start
