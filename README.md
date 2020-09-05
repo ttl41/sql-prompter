@@ -1,4 +1,5 @@
 # sql-prompter
+Make SQL request easier ! <br>
 > ❗ Node.JS SQL Prompter. <br>
 > ❗ Require Node.JS.
 
