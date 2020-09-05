@@ -9,7 +9,7 @@ Make SQL requests easier ! <br>
 - 🖤 If you haven't any error, launch the program with "npm start" command.
 
 ## Images
-![screenshot](https://github.com/Kazzookay/imgs/screenshot0.png "Screenshot")
-![screenshot](https://github.com/Kazzookay/imgs/screenshot1.png "Screenshot")
-![screenshot](https://github.com/Kazzookay/imgs/screenshot2.png "Screenshot")
-![screenshot](https://github.com/Kazzookay/imgs/screenshot3.png "Screenshot")
+![screenshot](https://github.com/Kazzookay/sql-prompter/imgs/screenshot0.png "Screenshot")
+![screenshot](https://github.com/Kazzookay/sql-prompter/imgs/screenshot1.png "Screenshot")
+![screenshot](https://github.com/Kazzookay/sql-prompter/imgs/screenshot2.png "Screenshot")
+![screenshot](https://github.com/Kazzookay/sql-prompter/imgs/screenshot3.png "Screenshot")
