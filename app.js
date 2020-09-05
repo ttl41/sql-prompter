@@ -46,7 +46,7 @@ if (config.fisttimelaunch === true) {
             console.log(`Error! "${err.sqlMessage}"`);
           } else {
             console.log(colors.green(`Successfully connected !`));
-            console.log("Please make an SQL command.");
+            console.log("Please give a SQL command to execute.");
             prompt.get(["query"], (err, result) => {
               if (err) {
                 throw err;
@@ -66,7 +66,7 @@ if (config.fisttimelaunch === true) {
       } else {
         console.log(
           colors.red(
-            `Error! All fields isn't completed. SQL-Prompter will exit.`
+            `Error! All fields aren't completed. SQL-Prompter will now exit.`
           )
         );
         process.exit(1);
@@ -91,7 +91,7 @@ if (config.fisttimelaunch === true) {
           console.log(`Error! "${err.sqlMessage}"`);
         } else {
           console.log(colors.green(`Successfully connected !`));
-          console.log("Please make an SQL command.");
+          console.log("Please give a SQL command to execute.");
           prompt.get(["query"], (err, result) => {
             if (err) {
               throw err;
@@ -108,7 +108,7 @@ if (config.fisttimelaunch === true) {
                     } else {
                       console.log(
                         colors.green(
-                          `Thanks using SQL-Prompter! See you later. :-)`
+                          `Thanks for using SQL-Prompter! See you later. :-)`
                         )
                       );
                     }
