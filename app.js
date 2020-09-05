@@ -46,7 +46,7 @@ if (config.fisttimelaunch === true) {
             console.log(`Error! "${err.sqlMessage}"`);
           } else {
             console.log(colors.green(`Successfully connected !`));
-            console.log("Please give a SQL command to execute.");
+            console.log("Please give an SQL command to execute.");
             prompt.get(["query"], (err, result) => {
               if (err) {
                 throw err;
@@ -91,7 +91,7 @@ if (config.fisttimelaunch === true) {
           console.log(`Error! "${err.sqlMessage}"`);
         } else {
           console.log(colors.green(`Successfully connected !`));
-          console.log("Please give a SQL command to execute.");
+          console.log("Please give an SQL command to execute.");
           prompt.get(["query"], (err, result) => {
             if (err) {
               throw err;
